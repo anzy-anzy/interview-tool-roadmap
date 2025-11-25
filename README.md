@@ -1,4 +1,4 @@
-# AWS Interview Prep Tool – Roadmap & Architecture
+# Interview Prep TooL. Little explanation.
 
 ## 📖 What the Application Is
 This is an **AI-powered interview preparation tool** designed to help candidates practice for AWS job interviews.  
@@ -7,6 +7,7 @@ This is an **AI-powered interview preparation tool** designed to help candidates
 - **Retrieval-Augmented Generation (RAG)** retrieves relevant information from those documents.  
 - A **Large Language Model (LLM)** generates tailored interview questions and feedback.  
 - The tool simulates a real interview with scoring, progress tracking, and feedback loops.
+ 
 ## Retrieval-Augmented Generation 
 It is an AI architecture that improves a model’s answers by letting it search for relevant external information before generating a response.
 
@@ -47,7 +48,7 @@ LLMs use a type of neural network called a Transformer, which excels at:
 
 They learn patterns from billions of sentences to produce coherent, context-aware output.
 
-## how a RAG system conects to an LLM
+## How a RAG system conects to an LLM
 a RAG system is specifically designed to work with a Large Language Model (LLM).
 In fact, RAG is not a standalone model; it is an architecture that enhances an LLM by adding retrieval capabilities.
 A typical RAG pipeline has three main components, all linked together:
@@ -63,9 +64,7 @@ A typical RAG pipeline has three main components, all linked together:
 3. Knowledge Source
 	•	Can be PDFs, company documents, websites, databases, product manuals, etc.
 
-🔗 Connection
-
-The LLM cannot store everything, so RAG plugs in an “external memory” that the LLM can read from in real time.
+- The LLM cannot store everything, so RAG plugs in an “external memory” that the LLM can read from in real time.
 
 ![WhatsApp Image 2025-11-25 at 11 15 50_124020fc](https://github.com/user-attachments/assets/37357a27-9a9a-4ddf-ac08-bdcadede2ae6)
 
@@ -122,4 +121,5 @@ The result is a secure, scalable, AWS-native application that:
 - Adapts to each candidate’s background.  
 - Provides structured, actionable feedback.  
 - Helps candidates improve and succeed.
+
 
